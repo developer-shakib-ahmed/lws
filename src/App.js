@@ -1,4 +1,5 @@
 // eslint-disable-next-line import/no-named-as-default-member
+import HOC from './hoc/HigherOrderComponent';
 
 function App() {
   return (
@@ -12,6 +13,8 @@ function App() {
           <Bracket>{({ wrapBracket }) => <Text emoji={wrapEmoji} bracket={wrapBracket} />}</Bracket>
         )}
       </Emoji> */}
+
+      <HOC />
     </div>
   );
 }
