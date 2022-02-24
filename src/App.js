@@ -1,7 +1,19 @@
-import './App.css';
+// eslint-disable-next-line import/no-named-as-default-member
 
 function App() {
-  return <h1>Hello World.</h1>;
+  return (
+    <div>
+      {/* <Clock /> */}
+      {/* <CountDown /> */}
+      {/* <Form /> */}
+      {/* <BoilingVerdict /> */}
+      {/* <Emoji>
+        {({ wrapEmoji }) => (
+          <Bracket>{({ wrapBracket }) => <Text emoji={wrapEmoji} bracket={wrapBracket} />}</Bracket>
+        )}
+      </Emoji> */}
+    </div>
+  );
 }
 
 export default App;
